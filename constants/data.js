@@ -53,7 +53,8 @@ const userData = {
       "Je m’appelle Grégoire Renaldo et je suis développeur web FullStack",
     description: [
 
-      `J’ai une double compétence en webmarketing que j’ai pu acquérir en travaillant 8 ans dans différentes entreprises du web, dont 5 chez Cdiscount. Je propose mes services pour la conception et la réalisation de votre projet web, du cahier des charges à la mise en ligne.`,
+      `J’ai une double compétence en webmarketing que j’ai pu acquérir en travaillant 8 ans dans différentes entreprises du web, dont 5 chez Cdiscount.`,
+      `Je propose mes services pour la conception et la réalisation de votre projet web, du cahier des charges à la mise en ligne.`,
       `Vous souhaitez avoir une présence en ligne ? Présenter un prototype ? Faire votre MVC ? Développer votre produit ? Mes clients sont des sociétés, associations, commerçants, professionnels libéraux et artistes. Je suis à votre écoute pour vous aider à concevoir et mettre en ligne un projet sur mesure adapté à vos besoins.`,
       `N’hésitez pas à me contacter pour échanger à ce sujet.`
       // `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
@@ -64,11 +65,11 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
+      title: "Medtandem",
+      company: "Developpeur Fullstack",
       year: "2021",
-      companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      companyLink: "https://www.medtandem.com/fr",
+      desc: "Refonte front - Ajout de fonctionnalités dans l'administration - mise en place d'emailing",
     },
     {
       title: "Founder and Developer",
@@ -113,6 +114,7 @@ const userData = {
     // twitter: "https://twitter.com/mannupaaji",
     linkedin: "https://www.linkedin.com/in/gregoire-renaldo-440b791b/",
     github: "https://github.com/gregoire-renaldo",
+    malt: "https://www.malt.fr/profile/gregoirerenaldo",
     // facebook: "https://facebook.com/",
   },
 };
