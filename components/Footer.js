@@ -1,6 +1,8 @@
 import React from "react";
 import userData from "@constants/data";
 
+
+
 export default function Footer() {
   return (
     <div className="bg-[#F1F1F1] dark:bg-gray-900">
@@ -8,18 +10,19 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p>&copy; Your Name. All Rights Reserved.</p>
+            <p> Grégoire Renaldo. All Rights Reserved.</p>
           </div>
           <div>
             {/* Support me by keeping this in the footer, please. :) */}
             <p>
-              Developed by
+              Made with love by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                  href="https://manuarora.in"
+                  href="https://www.malt.fr/profile/gregoirerenaldo"
+                  target="blank"
                 >
-                  Manu Arora
+                  Grégoire Renaldo
                 </a>
               </div>
             </p>
