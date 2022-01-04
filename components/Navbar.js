@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
+import styles from '../styles/navbar.module.css'
 
 export default function Navbar() {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+      <div className="flex  md:flex-row justify-between items-center ">
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
@@ -38,7 +39,7 @@ export default function Navbar() {
               className={`text-base  ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  : "text-gray-600 dark:text-gray-300 font-normal  "
               }`}
             >
               A propos{" "}
