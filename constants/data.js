@@ -1,5 +1,5 @@
 const userData = {
-  githubUsername: "manuarora700",
+  githubUsername: "gregoire-renaldo",
   name: "Grégoire Renaldo",
   designation: "Full-Stack Developpeur",
   avatarUrl: "/gregoire_renaldo.png",
@@ -109,11 +109,11 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    // instagram: "https://instagram.com/maninthere",
+    // twitter: "https://twitter.com/mannupaaji",
+    linkedin: "https://www.linkedin.com/in/gregoire-renaldo-440b791b/",
+    github: "https://github.com/gregoire-renaldo",
+    // facebook: "https://facebook.com/",
   },
 };
 
