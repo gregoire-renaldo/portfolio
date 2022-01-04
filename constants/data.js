@@ -8,45 +8,45 @@ const userData = {
   address: "Lormont - Bordeaux",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Medtandem",
+      link: "https://www.medtandem.com/fr/",
+      imgUrl: "/medtandem.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Itiniraires Vignobles",
+      link: "https://www.itineraires-vignobles.fr/",
+      imgUrl: "/itiniraires-vignobles.png",
     },
     {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      title: "API Bublle - Slack",
+      link: "#",
+      imgUrl: "/api-bubble-slack.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Site Charlote Vrain - Psychologue",
+      link: "https://www.psychologue-bordeaux-charlotte-vrain.com/",
+      imgUrl: "/charlotte-vrain-psychologue.png",
     },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
+    // {
+    //   title: "Site Aurore",
+    //   link: "https://algochurn.com",
+    //   imgUrl: "/algochurn.png",
+    // },
+    // {
+    //   title: "Playground",
+    //   link: "https://play.placeholdertech.in",
+    //   imgUrl: "/playground.png",
+    // },
+    // {
+    //   title: "Feedmeback",
+    //   link: "https://feedmeback.vercel.app",
+    //   imgUrl: "/feedmeback.png",
+    // },
+    // {
+    //   title: "Devmedium",
+    //   link: "https://devmedium.vercel.app",
+    //   imgUrl: "/devmedium.png",
+    // },
   ],
   about: {
     title:
