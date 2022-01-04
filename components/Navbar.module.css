@@ -1,15 +1,16 @@
-.underline-animation {
-  /* a {
+.navbar a {
+
+
     position: relative;
     color: #000;
     text-decoration: none;
   }
 
-  a:hover {
+  .navbar a:hover {
     color: #000;
   }
 
-  a::before {
+  .navbar a::before {
     content: "";
     position: absolute;
     display: block;
@@ -22,7 +23,6 @@
     transition: transform 0.3s ease;
   }
 
-  a:hover::before {
+  .navbar a:hover::before {
     transform: scaleX(1);
-  } */
-}
+  }

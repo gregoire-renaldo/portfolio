@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
-import styles from '../styles/navbar.module.css'
+import styles from "./Navbar.module.css"
 
 export default function Navbar() {
   const router = useRouter();
@@ -33,7 +33,8 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        {/* <div className="space-x-8 hidden md:block "> */}
+        <div className={`space-x-8 hidden md:block ${styles.navbar}`}>
           <Link href="/about">
             <a
               className={`text-base  ${
