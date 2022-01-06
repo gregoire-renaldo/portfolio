@@ -1,5 +1,8 @@
 import React from "react";
 import userData from "@constants/data";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
+
 
 
 
@@ -10,12 +13,11 @@ export default function Footer() {
         <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p> Grégoire Renaldo.</p>
+            <p> Created with React/Next.js </p>
           </div>
           <div>
-            {/* Support me by keeping this in the footer, please. :) */}
             <p>
-              Made with love by
+              Made with love <FontAwesomeIcon icon={faHeart} spin color={"red"}  />    by
               <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                 <a
                   className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
