@@ -7,14 +7,19 @@ import Hero from "../components/Hero";
 // import getLatestRepos from "@lib/getLatestRepos";
 // import userData from "@constants/data";
 
+
+import { Parallax } from 'react-parallax';
+
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Grégoire Renaldo - Full stack Web Developer"
       description="Portfolio mettant en avant les derniers projets sur lesquels j'ai travaillé"
     >
+    {/* <Parallax  bgImage="algochurn.png" bgImageAlt="the cat" strength={500}> */}
       <Hero />
       <FavouriteProjects />
+      {/* </Parallax> */}
       {/* <LatestCode repositories={repositories} /> */}
     </ContainerBlock>
   );

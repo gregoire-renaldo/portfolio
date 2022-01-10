@@ -37,6 +37,7 @@ export default function FavouriteProjects() {
           <a
             href="https://www.medtandem.com/fr/"
             className="w-full block col-span-3 shadow-2xl"
+            target="_blank" rel="noopener noreferrer"
           >
             <div className="relative overflow-hidden">
               <img
@@ -56,6 +57,7 @@ export default function FavouriteProjects() {
           <a
             href="https://www.itineraires-vignobles.fr/"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            target="_blank" rel="noopener noreferrer"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
@@ -76,6 +78,7 @@ export default function FavouriteProjects() {
           <a
             href=""
             className="w-full block col-span-3 sm:col-span-1  object-cover"
+            target="_blank" rel="noopener noreferrer"
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
