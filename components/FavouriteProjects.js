@@ -10,7 +10,7 @@ export default function FavouriteProjects() {
             Derniers projets
           </h1>
           <Link href="/projects">
-            <a className="mb-20  px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+            <a className="transition ease-in-out delay-150 bg-white-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 mb-20  px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -39,7 +39,7 @@ export default function FavouriteProjects() {
             className="w-full block col-span-3 shadow-2xl"
             target="_blank" rel="noopener noreferrer"
           >
-            <div className="relative overflow-hidden">
+            <div className=" rounded relative overflow-hidden">
               <img
                 src="/medtandem.png"
                 alt="portfolio"
@@ -59,7 +59,7 @@ export default function FavouriteProjects() {
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank" rel="noopener noreferrer"
           >
-            <div className="relative overflow-hidden">
+            <div className="rounded relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/itiniraires-vignobles.png"
@@ -80,7 +80,7 @@ export default function FavouriteProjects() {
             className="w-full block col-span-3 sm:col-span-1  object-cover"
             target="_blank" rel="noopener noreferrer"
           >
-            <div className="relative overflow-hidden shadow-2xl">
+            <div className=" rounded relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/api-bubble-slack.png"

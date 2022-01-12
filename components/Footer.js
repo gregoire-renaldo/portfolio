@@ -2,6 +2,7 @@ import React from "react";
 import userData from "@constants/data";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faReact } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -62,7 +63,7 @@ export default function Footer() {
             </a> */}
             <a
               href={userData.socialLinks.linkedin}
-              className="text-base font-normal text-gray-600 dark:text-gray-300"
+              className="text-base font-normal text-gray-600 dark:text-gray-300 hover:scale-125 ease-in duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

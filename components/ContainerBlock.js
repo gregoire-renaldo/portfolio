@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
+import Navbar2 from './NavBar2'
 import Footer from "./Footer";
 import { Parallax } from 'react-parallax';
 export default function ContainerBlock({ children, ...customMeta }) {
@@ -42,13 +43,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className=" dark:bg-gray-800 w-full">
-        <Navbar />
+        {/* <Navbar /> */}
+        {/* <Navbar2 /> */}
+      {/* <main className="dark:bg-gray-800 w-full"> */}
         {/* <Parallax  bgImage="algochurn.png" bgImageAlt="the cat" strength={500}> */}
+      {/* </main> */}
         <div>{children}</div>
         {/* </Parallax> */}
         <Footer />
-      </main>
     </div>
   );
 }
