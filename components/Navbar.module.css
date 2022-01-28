@@ -1,13 +1,11 @@
 .navbar a {
-
-
     position: relative;
-    color: #000;
+    color: rgb(128, 126, 126);
     text-decoration: none;
   }
 
   .navbar a:hover {
-    color: #000;
+    color: rgb(128, 126, 126);;
   }
 
   .navbar a::before {
@@ -18,7 +16,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: rgb(128, 126, 126);;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
